@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_surface"
+    android:orientation="vertical" >
+
+    <include layout="@layout/inc_header" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+   
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/background_main"
+        android:orientation="vertical"
+        android:padding="3dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bSelectState"
+                style="@style/ButtonTextLight"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:onClick="onClickFeature"
+                android:text="@string/button_select_state" />
+
+            <Button
+                android:id="@+id/bGetMap"
+                style="@style/ButtonTextLight"
+                android:layout_width="0dp"                
+                android:layout_weight="0.5"
+                android:onClick="onClickFeature"
+                android:text="@string/button_get_map_from_server" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bReview"
+                style="@style/ButtonTextLight"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:onClick="onClickFeature"
+                android:text="@string/button_review_past_scan_log" >
+            </Button>
+
+            <Button
+                android:id="@+id/bScanLogs"
+                style="@style/ButtonTextLight"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:onClick="onClickFeature"
+                android:text="@string/button_see_scan_logs" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

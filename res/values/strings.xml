@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fingerprint</string>
+    <string name="crash_reports_enable">false</string>    
+    <string name="shared_preferences_name">shared_prefer</string>
+    <string name="default_url">http://</string>
+     <string name="settings">Settings</string>
+     
+     <string name="my_test">MyCell</string>
+     
+    <!-- buttons -->
+    <string name="button_select_state">Select State</string>
+    <string name="button_get_map_from_server">Get Map From Server</string>
+    <string name="button_review_past_scan_log">Review Past Scan Log</string>
+    <string name="button_see_scan_logs">See Scan Logs On Map</string>
+    <string name="button_back">Back</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_save_scan">Save Scan</string>
+    <string name="button_clear_scan">Clear Scan</string>
+    <string name="button_submit_scan">Submit Scan</string>
+    <string name="button_map">Map</string>
+    <string name="button_summary">Summary</string>
+    <string name="button_login">Login</string>
+    <string name="button_ok">Ok</string>
+    <string name="button_cancel">Cancel</string>
+    <!-- text -->
+    <string name="txt_buildings">Buildings</string>
+    <string name="txt_floors">Floors</string>
+    <string name="settings_hint">Type ip or server address</string>
+    
+    <!-- messages -->
+    <string name="msg_map_2points_required">Please set a second marker.</string>
+    <string name="msg_map_notification_points">Please set your current position and continue your actions.</string>
+    <string name="msg_login_user">Username</string>
+    <string name="msg_login_pass">Password</string>
+    <string name="msg_login_customer_id">Customer ID</string>
+    <string name="msg_login_developer_id">Developer ID</string>    
+    <string name="msg_login_incorrect">Wrong login or password</string>
+    <string name="msg_alert">Alert</string>
+    <string name="msg_alert_wifi_title">Wi-Fi is not enabled!</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_customer_id_empty">Customer ID can not be empty</string>
+    <string name="msg_developer_id_empty">Developer ID can not be empty</string>    
+    <string name="msg_teh_error">Technical Errors Occurred</string>
+    <string name="msg_session_invalid">Session is probably expired. Please resign in an application. </string>
+    <string name="msg_log_nocount">No Logs</string>
+    <string name="msg_nothing_checked">Nothing checked</string>
+    <string name="msg_no_internet">
+Please check internet connection settings. \n
+Take the following troubleshooting steps to ensure network connectivity: \n \n
+Step 1.  Go to Settings > More. Check on the "Airplane mode," wait 5 seconds, and remove check \n \n
+Step 2. Go to Settings > More > Mobile networks.  Ensure that "Data enabled" is checked "on."  If it is already "on," then remove check, wait 5 seconds, and check back "on" \n \n
+Step 3.  Confirm that your phone is in a data reception zone.  Check the upper right to confirm that there are reception bars and (preferably) a 4G icon.  If there are no bars, move to a place with bars.  You can confirm whether your connection is working by going to the browser and navigating to a site \n \n
+Step 4.  If none of the above work, take the phone off of 4G.  Go to Settings > More > Mobile networks > Network Mode.  Check "CDMA" option (rather than "LTE/CDMA") \n \n
+   	</string>
+    <string name="msg_wifi_not_enabled">
+Please take the following troubleshooting steps: \n \n
+Step 1.  Go to Settings and ensure that Wi-Fi is set to "on."  If it is already set to "on," toggle to "off" and then turn back to "on" after 5 seconds \n \n
+Step 2.  If Step 1 did not solve the problem, then the phone is seeking to attach to an open Wi-Fi network that requires authentication.  You must manually detach the phone from all Wi-Fi networks:  \n \n
+- Go to Settings and tap on Wi-Fi \n \n
+- You will see a list of networks.  Tap each network that does not have a "lock" icon next to it, then tap a second time to get a dialog box that will display an option to "forget."  Touch the "forget" option.  (You may need to scroll to find the network and tap it a second time to get the "forget" pop-up) \n \n
+   	</string>
+    <string name="msg_gps_disabled">Please enable gps</string>
+    <string name="msg_logs_sent_succcess">The logs sent successfully</string>
+    <string name="msg_invalid_operations">
+Something went wrong \n \n
+Take the following troubleshooting steps to ensure network connectivity: \n \n
+Step 1.  Go to Settings > More. Check on the "Airplane mode," wait 5 seconds, and remove check \n \n
+Step 2. Go to Settings > More > Mobile networks.  Ensure that "Data enabled" is checked "on."  If it is already "on," then remove check, wait 5 seconds, and check back "on" \n \n
+Step 3.  Confirm that your phone is in a data reception zone.  Check the upper right to confirm that there are reception bars and (preferably) a 4G icon.  If there are no bars, move to a place with bars.  You can confirm whether your connection is working by going to the browser and navigating to a site \n \n
+Step 4.  If none of the above work, take the phone off of 4G.  Go to Settings > More > Mobile networks > Network Mode.  Check "CDMA" option (rather than "LTE/CDMA") \n \n
+	</string>
+    <string name="msg_server_error">
+Oops. Server returned error. \n \n
+Take the following troubleshooting steps to ensure network connectivity: \n \n
+Step 1.  Go to Settings > More. Check on the "Airplane mode," wait 5 seconds, and remove check \n \n
+Step 2. Go to Settings > More > Mobile networks.  Ensure that "Data enabled" is checked "on."  If it is already "on," then remove check, wait 5 seconds, and check back "on" \n \n
+Step 3.  Confirm that your phone is in a data reception zone.  Check the upper right to confirm that there are reception bars and (preferably) a 4G icon.  If there are no bars, move to a place with bars.  You can confirm whether your connection is working by going to the browser and navigating to a site \n \n
+Step 4.  If none of the above work, take the phone off of 4G.  Go to Settings > More > Mobile networks > Network Mode.  Check "CDMA" option (rather than "LTE/CDMA") \n \n
+	</string>
+    <string name="msg_dialog_loading">Loading</string>
+    <string name="msg_dialog_wifi_scanning">Scanning Wi-Fi</string>
+    <string name="msg_market_is_null">Please set your location on the map.</string>
+    <string name="msg_sd_card_disabled ">This program requires SD Card. Please insert it and try again.</string>
+    <string name="msg_basefolder_exists">We found scanning logs on SD Card. Would you like to delete them?</string>
+    <string name="msg_system_logout">Logout</string>
+    <string name="msg_operation_failed">The operation failed.</string>
+    <string name="msg_internet_mobile_detected">Mobile Internet Connection was detected. Would you like to turn off mobile internet?</string>
+    <string name="msg_internet_mobile_turnon">Would you like to turn Mobile Internet Connection on?</string>
+    <string name="msg_connections_turnon">Would you like to turn Active Internet Connections on?</string>
+    <string name="msg_connections_turnoff">Would you like to turn Active Internet Connections off?</string>
+    <string name="msg_setup_host">Please setup host in Settings</string>
+    <!-- url -->
+    <string name="submit_log_url">/logs/pars/</string>
+    <string name="plans_url">/plans/</string>    
+    <!-- styles -->
+    <style name="ButtonText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:background">@drawable/button_standard</item>
+    </style>
+
+    <style name="ButtonTextLight" parent="ButtonText">
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@drawable/button_light</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+
+</resources>

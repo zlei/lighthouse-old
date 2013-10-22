@@ -1,0 +1,9 @@
+<LinearLayout android:layout_width="fill_parent" android:background="#FFFFFF"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/lSearchCellLayout"
+	android:layout_height="80dp">
+	<TextView android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:gravity="center_vertical"
+		android:layout_margin="10dp"
+		android:id="@+id/tSimpleCellText" android:lines="1" android:textSize="14dp"
+		android:textColor="#000" android:text="Floor 1" />
+</LinearLayout>
